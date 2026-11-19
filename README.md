@@ -72,6 +72,32 @@ Administrators can manage movies, theatres, shows, bookings, users, and revenue 
 - Revenue Dashboard
 - Cancellation Management
 
+  ## 📸 Project Screenshots
+
+### 1. Main Menu
+<img width="1818" height="882" alt="Screenshot 2026-11-20 014253" src="https://github.com/user-attachments/assets/2c29be20-a20a-4881-bc9d-9366e4dd26bb" />
+
+
+### 2. Movie List
+<img width="1572" height="775" alt="Screenshot 2026-11-20 014326" src="https://github.com/user-attachments/assets/74d58d70-7083-41dc-a20f-0ed482c87936" />
+
+
+### 3. Seat Selection
+<img width="1706" height="896" alt="image" src="https://github.com/user-attachments/assets/0ff26ba3-f6bd-4bcd-9856-743aacb6e50e" />
+
+
+### 4. User Login 
+<img width="1733" height="530" alt="Screenshot 2026-11-20 014545" src="https://github.com/user-attachments/assets/70bcbee8-49ef-4b54-ae57-26249cbab3c6" />
+
+
+### 5. E-Ticket
+<img width="1875" height="982" alt="Screenshot 2026-11-20 014708" src="https://github.com/user-attachments/assets/ec2d2a7b-3782-4bb8-a5cd-354538707543" />
+
+
+### 6. Admin Dashboard
+<img width="1811" height="976" alt="Screenshot 2026-11-20 014816" src="https://github.com/user-attachments/assets/e9bbc099-09b6-4266-9356-3e86b3ed104c" />
+
+
 ## 🛠️ Technologies Used
 
 - Java
