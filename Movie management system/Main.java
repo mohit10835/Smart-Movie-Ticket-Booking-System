@@ -171,16 +171,8 @@ public class Main {
 
                 // Manage Seats
                 case 5:
-                    int seatChoice;
 
-                    try {
-                        seatChoice = Integer.parseInt(sc.nextLine().trim());
-
-                    } catch (NumberFormatException e) {
-                        System.out.println("Invalid Input! Please Enter a Number.");
-                        seatChoice = 0;
-                        continue;
-                    }
+                    int seatChoice = 0;
 
                     do {
 
@@ -194,8 +186,13 @@ public class Main {
 
                         System.out.print("Enter Your Choice: ");
 
-                        seatChoice = sc.nextInt();
+                        try {
+                            seatChoice = Integer.parseInt(sc.nextLine().trim());
 
+                        } catch (NumberFormatException e) {
+                            System.out.println("Invalid Input! Please Enter a Number.");
+                            continue;
+                        }
 
                         switch (seatChoice) {
 
@@ -237,14 +234,12 @@ public class Main {
                                 break;
 
                             default:
-                                System.out.println("Invalid Choice! Please Select 1 to 6.");
-                                break;
+                                System.out.println("Invalid Choice! Please select 1-6.");
                         }
 
                     } while (seatChoice != 6);
 
                     break;
-
                 // Cancel Individual Seat
                 case 6:
 
